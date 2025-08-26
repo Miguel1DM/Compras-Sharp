@@ -1,7 +1,11 @@
 # 🛒 VendaSharp
 
-Bem-vindo ao **Compras Sharp**, um sistema de vendas desenvolvido em **C# (.NET)** com foco em **aprendizado e boas práticas de programação**.  
-O projeto simula um fluxo de compras, cadastro, alteração de vendas e finalização do carrinho, permitindo gerenciar produtos e vendas direto pelo terminal.
+Bem-vindo ao **Compras Sharp**, um sistema de vendas desenvolvido em **C# (.NET)** com foco em **treinamento de programação orientada a objetos (POO)** e prática da **sintaxe do C#**.  
+O projeto simula um fluxo completo de compras: cadastro, alteração de vendas, listagem de compras e finalização do carrinho, permitindo gerenciar produtos e vendas direto pelo terminal.  
+
+💡 Para facilitar os testes, já existe um usuário cadastrado:  
+- **Nome:** admin  
+- **Senha:** admin  
 
 ---
 
@@ -25,4 +29,4 @@ O projeto simula um fluxo de compras, cadastro, alteração de vendas e finaliza
 
 1. **Clone o repositório**
    ```bash
-   https://github.com/Miguel1DM/Compras-Sharp.git
+   git clone https://github.com/Miguel1DM/Compras-Sharp.git
