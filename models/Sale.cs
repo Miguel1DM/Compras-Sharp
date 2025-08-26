@@ -9,7 +9,6 @@ namespace SalesSystem.Models.Sale
         public Product.Product Product{ get; set; }
         public int AmountProduct { get; set; }
         public float SaleValue { get; set; }
-
         public Sale(User.User user, Product.Product product, int amountProduct)
         {
             User = user;

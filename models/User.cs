@@ -10,7 +10,6 @@ namespace SalesSystem.Models.User
             Name = name;
             _password = password;
         }
-
         public bool ValidatePassword(string password)
         {
             if (_password == password)

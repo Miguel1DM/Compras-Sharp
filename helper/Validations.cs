@@ -2,7 +2,6 @@ namespace SalesSystem.Helper.Validations
 {
     public class Validations()
     {
-
         public static int IntValidation(string message = "")
         {
             int value;

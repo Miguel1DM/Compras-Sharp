@@ -7,14 +7,10 @@ namespace SalesSystem.Database.Users
     public class DatabaseUsers
     {
 
-        //Inserção de "registros", criando instâncias do objeto User, dentro de uma Lita,
+        //Inserção de "registros", criando instâncias do objeto User, dentro de uma Lita.
         private static List<User> _users = new List<User>
         {
-            new User("miguel", "123"),
-            new User("joao", "456"),
-            new User("maria", "789"),
-            new User("ana", "abc"),
-            new User("carlos", "xyz")
+            new User("admin", "admin"),
         };
 
         public static User? Login(string name, string password, out string message)

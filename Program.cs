@@ -26,9 +26,9 @@ class Program
         Product? product = null;
         var nameProduct = "";
 
-        // Primeiras iterações com o usuário, aprsentação do sistema e opções de escolha
+        // Primeiras iterações com o usuário, apresentação do sistema e opções de escolha
         Console.WriteLine("\n==============================");
-        Console.WriteLine("   Bem-vindo ao Sistema de Vendas");
+        Console.WriteLine("   Bem-vindo ao Compras Sharp");
         Console.WriteLine("==============================\n");
 
         Console.WriteLine("Escolha uma opção:");
