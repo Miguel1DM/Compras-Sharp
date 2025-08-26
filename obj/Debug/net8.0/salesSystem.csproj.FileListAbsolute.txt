@@ -12,3 +12,4 @@ C:\Users\Proprietário\Documents\Miguel\vendas C#\salesSystem\obj\Debug\net8.0\r
 C:\Users\Proprietário\Documents\Miguel\vendas C#\salesSystem\obj\Debug\net8.0\salesSystem.pdb
 C:\Users\Proprietário\Documents\Miguel\vendas C#\salesSystem\obj\Debug\net8.0\salesSystem.genruntimeconfig.cache
 C:\Users\Proprietário\Documents\Miguel\vendas C#\salesSystem\obj\Debug\net8.0\ref\salesSystem.dll
+C:\Users\Proprietário\Documents\Miguel\vendas C#\salesSystem\obj\Debug\net8.0\salesSystem.sourcelink.json

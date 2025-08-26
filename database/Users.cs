@@ -17,30 +17,41 @@ namespace SalesSystem.Database.Users
             new User("carlos", "xyz")
         };
 
-        //Criando os serviços
-        public static void PrintAllUsers()
-        {
-            foreach (var user in _users)
-            {
-                Console.WriteLine(user.Name);
-            }
-        }
-
-        public static bool Login(string name, string password)
+        public static User? Login(string name, string password, out string message)
         {
 
             var user = _users.FirstOrDefault(u => u.Name == name);
 
             if (user == null)
             {
-                return false;
+                message = "login errado";
+                return null;
             }
             else if (user.ValidatePassword(password))
             {
-                return true;
+                message = "ok";
+                return user;
             }
-            
-            return false; 
+
+            message = "login errado";
+            return null;
+        }
+
+        public static bool NewUser(string name, string password, out string message)
+        {
+
+            foreach (var user in _users)
+            {
+                if (user.Name == name)
+                {
+                    message = "ja existe um usuario com esse nome";
+                    return false;
+                }
+            }
+            _users.Add(new User(name, password));
+
+            message = "ok";
+            return true;
         }
     }
 }
