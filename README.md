@@ -25,4 +25,4 @@ O projeto simula um fluxo de compras, cadastro, alteração de vendas e finaliza
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/vendasharp.git
+   https://github.com/Miguel1DM/Compras-Sharp.git
